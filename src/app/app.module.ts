@@ -10,6 +10,10 @@ import { NosotrosComponent } from './components/nosotros/nosotros.component';
 // Routes
 import { APP_ROUTING } from './app.routes';
 
+// Social Network
+// import { TwitterService } from 'ng2-twitter';
+import { FacebookModule } from 'ngx-facebook';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,9 +24,13 @@ import { APP_ROUTING } from './app.routes';
   ],
   imports: [
     BrowserModule,
-    APP_ROUTING
+    APP_ROUTING,
+    FacebookModule.forRoot()
   ],
-  providers: [],
+  providers: [
+    // TwitterService,
+    FacebookModule
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
