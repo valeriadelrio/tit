@@ -1,0 +1,40 @@
+.navbar{
+    background-color: black;
+}
+
+.navbar button.navbar-toggler {
+    border-color: rgba(255,255,255,0.5);
+    border: 2px solid  rgba(255,255,255,0.5);
+}
+
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+@media (min-width:676px){
+    #navbarNav {
+        float:left;
+        left:50%;
+        list-style-type:none;
+        position:relative;
+    }
+    #navbarNav ul li a {
+        color: white;
+        position: relative;
+        float: left;
+        right:100%;
+        margin-right: 10rem;
+        /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-style: italic;
+        font-size: 18px;
+        font-weight: 500;    */
+    }
+}
+
+
+#navbarNav ul li a {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 500;   
+}
