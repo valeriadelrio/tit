@@ -14,13 +14,17 @@ import { APP_ROUTING } from './app.routes';
 // import { TwitterService } from 'ng2-twitter';
 import { FacebookModule } from 'ngx-facebook';
 
+// Parallax
+import { Parallax, ParallaxConfig } from 'ngx-parallax';
+
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     HomeComponent,
     ContactComponent,
-    NosotrosComponent
+    NosotrosComponent,
+    Parallax
   ],
   imports: [
     BrowserModule,

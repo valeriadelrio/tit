@@ -1,5 +1,9 @@
 .navbar{
     background-color: black;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    overflow: hidden;
 }
 
 .navbar button.navbar-toggler {
@@ -37,4 +41,11 @@
     font-style: italic;
     font-size: 18px;
     font-weight: 500;   
+}
+
+#navbarNav ul li a:hover {
+    /* text-decoration-line: underline; */
+    /* text-decoration-color: blue; */
+    /* text-decoration-style: solid 25px; */
+    border-bottom: 0.5rem solid rgba(0, 255, 0, 0.5);
 }
