@@ -1,4 +1,13 @@
 #img-fondo{
     background-image: url('/assets/img/fondo.png');
-    height: 400px;
+    /* height: 400px; */
+    min-height: calc(100vh - 80px);
+    
+}
+
+.main-container h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 36px;
+    text-align: center;
+    color: white;
 }
