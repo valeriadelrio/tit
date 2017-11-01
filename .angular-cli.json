@@ -27,7 +27,9 @@
       "scripts": [
         "assets/jquery/jquery.slim.min.js",
         "assets/popper/dist/umd/popper.min.js",
-        "assets/b4/js/bootstrap.min.js"
+        "assets/b4/js/bootstrap.min.js",
+        "../node_modules/jquery.scrollto/jquery.scrollTo.min.js",
+        "../node_modules/jquery.localscroll/jquery.localScroll.min.js"
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {

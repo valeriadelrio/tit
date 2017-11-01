@@ -12,4 +12,9 @@ export class NavbarComponent implements OnInit {
   ngOnInit() {
   }
 
+  // scroll() {
+  //   ('.navbar.navbar-nav').localScroll({duration: 800});
+  //  }
+  // }
+
 }
