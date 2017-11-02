@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ScrollToService } from 'ng2-scroll-to-el';
 
 @Component({
   selector: 'app-navbar',
@@ -7,14 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
-  constructor() { }
+  constructor(private scrollService: ScrollToService) { }
 
   ngOnInit() {
   }
 
-  // scroll() {
-  //   ('.navbar.navbar-nav').localScroll({duration: 800});
-  //  }
-  // }
+//   scrollToTop(element) {
+//     this.scrollService.scrollTo(element);
+// }
+
 
 }

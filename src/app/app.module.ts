@@ -17,6 +17,9 @@ import { FacebookModule } from 'ngx-facebook';
 // Parallax
 import { Parallax, ParallaxConfig } from 'ngx-parallax';
 
+// Scroll
+import { ScrollToModule } from 'ng2-scroll-to-el';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -29,7 +32,8 @@ import { Parallax, ParallaxConfig } from 'ngx-parallax';
   imports: [
     BrowserModule,
     APP_ROUTING,
-    FacebookModule.forRoot()
+    FacebookModule.forRoot(),
+    ScrollToModule.forRoot()
   ],
   providers: [
     // TwitterService,

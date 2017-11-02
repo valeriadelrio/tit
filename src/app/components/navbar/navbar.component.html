@@ -1,23 +1,23 @@
 <nav class="navbar navbar-expand-lg ">
   <a class="navbar-brand" >
-    <img src="/assets/img/tit3.png" width="40" height="40" alt="">  </a>
+    <img src="/assets/img/tit_2016_350.png" width="40" height="40" alt="">  </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item" >
-        <a class="nav-link"  href="#home">
+        <a class="nav-link"  [scrollTo]="'#home'" [scrollDuration]="1000" [scrollOffset]="-100">
             <!-- <i class="fa fa-home" aria-hidden="true"></i> -->
           Inicio</a>
       </li>
       <li class="nav-item" >
-        <a class="nav-link" href="#nosotros">
+        <a class="nav-link" [scrollTo]="'#nosotros'">
             <!-- <i class="fa fa-user" aria-hidden="true"></i> -->
           Nosotros</a>
       </li>
       <li class="nav-item" >
-        <a class="nav-link" href="#contacto">
+        <a class="nav-link" [scrollTo]="'#contacto'">
             <!-- <i class="fa fa-inbox" aria-hidden="true"></i> -->
           Contacto</a>
       </li>
@@ -25,8 +25,3 @@
   </div>
 </nav>
 
-<!-- <script type="text/javascript">
-  $(document).ready(function() {
-     $('a.nav-item').scrollTo({duration:800});
-  });
-</script> -->
